@@ -1,0 +1,35 @@
+#searchSection{
+	padding-top: 50px;
+	height: 100px;
+	float: top;
+}
+
+#playerSection{
+	padding-top: 50px;
+	float: top;
+}
+
+.center {
+    margin: auto;
+    width: 60%;
+    border:3px solid #ffffff;
+    padding: 10px;
+}
+
+#searchBar{
+	margin-left: 100px;
+	width: 500px;
+	height: 50px;
+	border: 2px solid #4587de;
+	font-size: 25px;
+}
+
+#search{
+	margin-left: 25px;
+	width: 150px;
+	height: 60px;
+	background: #ff0000;
+	border-radius: 10px;
+	border-color: #ff0000;
+	font-size: 25px;
+}

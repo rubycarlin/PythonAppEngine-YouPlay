@@ -1,0 +1,23 @@
+
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Youtube</title>
+		<link rel="stylesheet" type="text/css" href="/stylesheets/youtube.css">
+		<link rel="stylesheet" type="text/css" href="/stylesheets/awesomplete.css">
+	</head>
+	<body>
+		<div class = "main">
+			<form action="/search" method="post" autocomplete="off">
+				<section id = "searchSection" class="center">
+					<input type="text" autocomplete="off"  name="searchBar"  id="searchBar" class="awesomplete" data-list="5 Seconds Of Summer,ASAP Rocky,Adam Levine,Alabama,Alessia Cara,Andy Grammer,Andy Mineo,Ariana Grande,Atreyu,Beyonce,Big Sean,Blake Shelton,Brett Eldredge,Bruno Mars,Cam,Carrie Underwood,Charlie Puth,Chris Brown,Chris Cornell,Chris Janson,Cole Swindell,DJ Snake,David Gilmour,Demi Lovato,Dr Dre,Drake,Ed Sheeran,Luke Bryan,Elle King,Ellie Goulding,Eminem,Eric Church,Fall Out Boy,Fetty Wap,Fifth Harmony,Five Finger Death Punch,Florida Georgia Line,Future,Hailee Steinfeld,Halsey,Hozier,Imagine Dragons,J Cole,Jason Aldean,Jason Derulo,Jeremih,John Legend,Justin Bieber,K Camp,Kanye West,Katy Perry,Keith Richards,Keith Urban,Kendrick Lamar,Kenny Chesney,Lady Gaga,Lana Del Rey,Little Mix,Mac Miller,Macklemore & Ryan Lewis,Maddie & Tae,Major Lazer,Mark Ronson,Maroon 5,Meek Mill,Meghan Trainor,N W A,Nick Jonas,Nicki Minaj,OMI,Old Dominion,One Direction,R City,Rachel Platten,Rae Sremmurd,Remy Boyz,Rich Homie Quan,Rihanna,Ryan Adams,Sam Hunt,Sam Smith,Selena Gomez,Shawn Mendes,Shinedown,Sia,Silento,Taylor Swift,The Weeknd,Thomas Rhett,Tove Lo,Travis Scott,Trey Songz,Turnpike Troubadours,WALK THE MOON,Wiz Khalifa,X Ambassadors,Zac Brown Band,blessthefall,iHeartMemphis,twenty one pilots"/>
+					<input type="submit" name="search" value="Search" id="search"/>
+				</section>
+				<section id="playerSection" class="center">
+					<div id="player"></div>
+				</section>
+				<script type="text/javascript" src="js/awesomplete.js" async></script>
+			</form>
+		</div>
+	</body>
+</html>

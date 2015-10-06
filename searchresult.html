@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>My Webpage</title>
+</head>
+<body>
+	{% for videoid in videoids %}
+		<p hidden >{{ videoid }}</p>
+	{% endfor %}
+
+	{% for lyric_url in lyric_urls %}
+		<h3 hidden> {{ lyric_url }} </h3>
+	{% endfor %}
+	
+	<div id="player"></div>
+	<iframe width="560" height="315" src="" frameborder="0" allowfullscreen id="player"></iframe>
+	<div id="lyricbox">
+	</div>
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/playvideo.js"></script>
+    <script type="text/javascript" src="js/iframe.js"></script>
+
+</body>
+</html>
